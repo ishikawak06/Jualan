@@ -1,0 +1,279 @@
+.logo-abaty-store {
+    display: flex;
+    justify-content: center;  
+
+}
+
+.logo-abaty-store div {
+    padding-top: 36px;
+}
+
+.Banner-atas {
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+}
+.backround-Banner-atas {
+    background-image: url(./Foto/Discover.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 228px;
+    border-radius: 21px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    align-items: flex-start;
+}
+.backround-Banner-atas::before {
+    background: rgba(111, 79, 242, 0.50);
+}
+
+.title-Banner-atas {  
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px 0 10px 20px;
+
+}
+.call-action-Banner-atas {
+    width: 133px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #6F4FF2;
+    margin: 0px 230px 20px 20px;
+}
+
+.paragraf-Banner-atas {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 18px 0px 10px 41px; 
+    
+}
+
+.call-action-Banner-atas div {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 40px 9px 40px;
+}
+.call-action-Banner-atas:hover {
+    -webkit-box-shadow: 5px 9px 16px 5px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 5px 9px 16px 5px rgba(66, 68, 90, 1);
+    box-shadow: 5px 9px 16px 5px rgba(66, 68, 90, 1);
+}
+.box-kode-produk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px ;
+    padding-top: 54px;
+}
+.kode-produk {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.angkaaa {
+    display: flex;
+    justify-content: center;
+    gap: 10px ;
+
+}
+.angkaaa div {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.angka-on-click {
+    width: 60px;
+    height: 21px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #6F4FF2;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.angka-on-click a {
+    color: white;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
+}
+.kotak-1 {
+    width: 378px;
+    height: 529px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #fff;
+    color: #000;
+    padding-bottom:90px;
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(203, 203, 203, 1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(203, 203, 203, 1);
+    box-shadow: 0px 0px 0px 1px rgba(203, 203, 203, 1);
+}
+.kotak-1:hover {
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+}
+.kotak-1-gambar {
+    padding-top: 20px;
+    margin-right: 22px;
+}
+.kotak-1 div {
+    margin-left: 20px;
+}
+.kotak-1-tulisan {
+    margin-bottom: 31px;
+    margin-top: 20px;
+    margin-right: 26px;
+}
+
+.kotak-1-call-to-action {
+    width: 324.383px;
+    height: 53.617px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #6F4FF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    margin-right: 26px;
+    margin-bottom: 19px;
+}
+.kotak-1-call-to-action:hover {
+    background: rgba(111, 79, 242, 0.49)
+}
+.harga-1 {
+    margin-left: 0 !important;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.hrga-1-asli {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hrga-1-coreng  {
+    display: flex;
+    gap: 3px;
+    
+}
+.hrga-1-coreng div{
+    margin-left: 0 !important; 
+}
+.kode-produk-1 {
+    position: relative;
+    background-color: red;
+    left: 235px;
+    bottom: 258px;
+    width: 80px;
+    border-radius: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    line-height: normal;
+    color: #F2F2F2;
+}
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* 1 */
+.satu-page div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tombol-beli-whatsapp {
+    width: auto;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.kotak-tombol-beli-whatsapp {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 4px;
+    background: #6F4FF2;
+    color: #FFF;
+    text-align: center;
+}
+.dashbord {
+ padding: 15px 30px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 4px;
+ color: #FFF;
+ text-align: center;
+ width: auto;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 30px;
+ background-color: #FFF;
+}
+.tanda-bawah-panah div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
